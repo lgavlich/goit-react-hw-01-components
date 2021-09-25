@@ -1,5 +1,6 @@
 import React from 'react';
 import Profile from './components/Profile/user';
+import FriendList from './components/Friend-List/FriendList';
 import user from './data/user.json';
 
 const App = () => {
