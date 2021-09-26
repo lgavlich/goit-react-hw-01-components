@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import s from './statistics.module.css';
 
 function randomColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
@@ -7,7 +8,7 @@ function randomColor() {
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
+    <section className={s.statistics}>
       {title && <h2 className="title">{title}</h2>}
 
       <ul className="stat-list">

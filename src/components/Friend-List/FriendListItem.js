@@ -1,11 +1,12 @@
 import React from 'react';
+import s from './Friend-List.module.css';
 
 const FriendItem = ({ id, avatar, name, isOnline }) => {
   return (
-    <li key={id} className="item">
-      <span className={[isOnline ? true : false].join(' ')} />
-      <img className={avatar} src={avatar} alt={name} width="48" />
-      <p className={name}>{name}</p>
+    <li key={id} className={s.item}>
+      <span className={[s.status, isOnline ? s.true : s.false].join(' ')} />
+      <img className={s.avatar} src={avatar} alt={name} width="48" />
+      <p className={s.name}>{name}</p>
     </li>
   );
 };

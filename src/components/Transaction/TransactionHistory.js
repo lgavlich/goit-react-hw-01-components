@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TransactionHistory = ({ items }) => {
+const TransactionHistory = ({ items }) => (
   <table class="transaction-history">
     <thead>
       <tr>
@@ -20,8 +20,8 @@ const TransactionHistory = ({ items }) => {
         </tr>
       ))}
     </tbody>
-  </table>;
-};
+  </table>
+);
 
 TransactionHistory.propType = {
   items: PropTypes.arrayOf(

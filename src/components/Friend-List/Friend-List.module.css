@@ -1,0 +1,31 @@
+.item {
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.status {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.true {
+  background-color: darkgreen;
+}
+
+.false {
+  background-color: darkred;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.friendList {
+  margin: 50px;
+}

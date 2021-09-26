@@ -1,7 +1,44 @@
 .profile {
-  padding: 20px;
-  width: 350px;
-  height: 350px;
-  background-color: aqua;
-  border-radius: 5px;
+  padding: 50px;
+  width: 300px;
+  height: 100%;
+  background-color: moccasin;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tag,
+.location {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.label,
+.quntity {
+  font-size: 18px;
+  color: brown;
 }
